@@ -1,0 +1,12 @@
+**)With Vs Code+Windows(Virtual environment):
+
+1) starting: python -m venv .venv
+2)To activate: .\.venv\Scripts\Activate.ps1
+3)To deactivate: deactivate
+
+**)Create+Activate with conda:
+
+
+1)starting: conda create  --name anyName python==3.10
+2)To deactivate:conda deactivate
+Somossa hole powershell del kore ,notun powershell khulo...
