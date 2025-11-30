@@ -1,0 +1,16 @@
+1) !pip install opendatasets --upgrade
+
+
+2)
+import opendatasets as od
+import pandas
+
+od.download(
+    "https://www.kaggle.com/datasets/yasserh/titanic-dataset",force=True)
+
+3)
+import os
+import pandas as pd
+
+# List all files in the folder
+print(os.listdir("./titanic-dataset"))
